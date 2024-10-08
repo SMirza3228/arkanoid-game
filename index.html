@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ArkanoiD</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="#" class="logo">Arkanoi<abbr class="abbr__color">D</abbr></a>
+                </div>
+
+                <nav class="header__nav">
+                    <ul class="sidebar">
+                        <li onclick="closeMenu()" class="cursor__close"><img src="close.svg" alt=""></li>
+                        <li><a href="#" class="list__link">Home</a></li>
+                        <li><a href="#" class="list__link">Game</a></li>
+                    </ul>
+
+                    <ul class="header__list">
+                        <li onclick="openMenu()" class="cursor__open"><img src="open.svg" alt=""></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__inner">
+                <canvas id="myCanvas" width="650px" height="480px"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+    <script src=""></script>
+</body>
+
+</html>
